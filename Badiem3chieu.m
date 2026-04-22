@@ -13,8 +13,8 @@ beta_mt(1) = atan2(Y_mt(1), X_mt(1)); % Góc phương vị (azimuth angle)
 epsilon_mt_dot(1) = 0;
 beta_mt_dot(1) = 0;
 % Vận tốc:
-W_mt_theta(1) = 10; % Gia tốc pháp tuyến theo góc nghiêng
-W_mt_phi(1) = 0;   % Gia tốc pháp tuyến theo góc phương vị
+W_mt_theta(1) = 3; % Gia tốc pháp tuyến theo góc nghiêng
+W_mt_phi(1) = 4;   % Gia tốc pháp tuyến theo góc phương vị
 V_mt = 200;
 Theta_mt(1) = -60 * pi/180; % Góc nghiêng quỹ đạo mục tiêu
 Phi_mt(1) = 120 * pi/180; % Góc lệch quỹ đạo theo phương vị
